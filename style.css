@@ -1,0 +1,186 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+header{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(15, 37, 163);
+    position: relative;
+
+}
+.navbar-brand{
+    margin-left: 40px;
+    font-weight: bold;
+    font-size: 40px;
+}
+.radius img{
+    border-radius: 30px;
+    width: 10px;
+    position: absolute;
+    
+
+}
+.nav-link{
+    margin-right: 350px;
+
+}
+.nav-item{
+    margin-top: 20px;
+}
+
+.fa-solid{
+    position: relative;
+    top: -32PX;
+    left: 60px;
+    font-size: 25px;
+}
+.fa-circle-exclamation{
+    position: relative;
+    top: -32PX;
+    left: 80px;
+    font-size: 25px;
+}
+    .nav-text{
+        color: white;
+        position: relative;
+        top: 30px;
+        left: -200px;
+    }
+    .fa-bed{
+        margin-left: 10px;
+        margin-top: 20px;
+        font-size: 20px;
+      
+       
+    }
+    .box1-text{
+        color: white;
+        position: relative;
+        top: -35px;
+        left: 70px;
+
+    }
+   
+    .fa-plane{
+        margin-left: 120px;
+     position: relative;
+     top: -55px;
+        font-size: 20px;
+      
+    }
+    .box2-text{
+        color: white;
+        position: relative;
+        top: -55px;
+        left: 70px;
+    }
+    
+    .fa-car{
+        margin-left: 230px;
+     position: relative;
+     top: -78px;
+        font-size: 20px;
+      
+    }
+    .box3-text{
+        color: white;
+        position: relative;
+        top: -78px;
+        left: 70px;
+    }
+    .fa-tree{
+        margin-left: 370px;
+     position: relative;
+     top: -100px;
+        font-size: 20px;
+      
+    }
+    .box4-text{
+        color: white;
+        position: relative;
+        top: -100px;
+        left: 70px;
+    }
+    .fa-taxi{
+        margin-left: 500px;
+        position: relative;
+        top: -125px;
+           font-size: 20px;
+    }
+    .box5-text{
+        color: white;
+        position: relative;
+        top: -125px;
+        left: 70px;
+    }
+    .header-heading{
+        color: white;
+        font-size: 50px;
+        margin-top: -70px;
+        margin-left: 40px;
+        font-weight: bolder;
+    }
+    .header-text{
+        color: white;
+        font-size: 20px;
+        margin-top: 10px;
+        margin-left: 40px;
+    }
+    .box1-nav{
+        width: 300px;
+        border: 4px solid orange;
+        margin-top: 85px;
+        margin-left: 40px;
+        color: white;
+        height: 50px;
+        background-color: white;
+        border-radius: 5px;
+    }
+    .first-nav{
+        border: none;
+        padding-left: 40px;
+        text-align: center;
+        border-radius: 5px;
+        padding-top: 10px;
+    }
+    .box2-nav{
+        width: 300px;
+        border: 4px solid orange;
+        margin-top: 85px;
+        margin-left: 40px;
+        color: white;
+        height: 50px;
+        background-color: white;
+        border-radius: 5px;
+        position: relative;
+        top: -120px;
+    }
+    .second-nav{
+        border: none;
+        padding-left: 40px;
+        text-align: center;
+        border-radius: 5px;
+        padding-top: 10px;
+    }
+    .box3-nav{
+        width: 300px;
+        border: 4px solid orange;
+        margin-top: 85px;
+        margin-left: 40px;
+        color: white;
+        height: 50px;
+        background-color: white;
+        border-radius: 5px;
+    }
+    .third-nav{
+        border: none;
+        padding-left: 40px;
+        text-align: center;
+        border-radius: 5px;
+        padding-top: 10px;
+    }
+   
+    
