@@ -7,7 +7,7 @@
 header{
     width: 100%;
     height: 400px;
-    background-color: rgb(15, 37, 163);
+    background-color: rgba(5, 21, 119, 0.875);
     position: relative;
 
 }
@@ -37,6 +37,9 @@ header{
     left: 60px;
     font-size: 25px;
 }
+.nav-item{
+    margin-right: -220px;
+}
 .fa-circle-exclamation{
     position: relative;
     top: -32PX;
@@ -47,7 +50,8 @@ header{
         color: white;
         position: relative;
         top: 30px;
-        left: -200px;
+        left: 12px;
+        font-weight:500;
     }
     .fa-bed{
         margin-left: 10px;
@@ -129,59 +133,89 @@ header{
         margin-top: 10px;
         margin-left: 40px;
     }
-    .box1-nav{
-        width: 400px;
-        border: 4px solid orange;
-        margin-top: 85px;
-        margin-left: 40px;
-        color: white;
-        height: 50px;
-        background-color: white;
+    .row{
+        border: 2px solid orange;
+        width: 70%;
+        display: flex;
+        position: absolute;
+        top: 350px;
         border-radius: 5px;
+        left: 10%;
+        
+        
     }
-    .first-nav{
-        border: none;
-        padding-left: 40px;
-        text-align: center;
-        border-radius: 5px;
-        padding-top: 10px;
-    }
-    .box2-nav{
-        width: 330px;
-        border: 4px solid orange;
-        margin-top: 70px;
-        margin-left:360px;
-        color: white;
-        height: 50px;
+    .col{
+        border: 2px solid orange;
+        width:35%;
         background-color: white;
-        border-radius: 5px;
-        position: relative;
-        top: -120px;
+        padding-top: 20px;
+        padding-left: 20px;
+        height: 70px;
+        
+        
+    }
+    .btn-primary{
+        margin-top: -5px;
+        
+    }
+
+    ::placeholder{
+        color: black;
+        font-size: 15px;
+        margin-top: 50px;
+        margin-left: 10px;
+    }
+    input{
+        outline: none;
+        border: none;   
        
+
+        
     }
-    .Second-nav{
-        border: none;
-        padding-left: 40px;
-        text-align: center;
-        border-radius: 5px;
-        padding-top: 10px;
-    }
-    .box3-nav{
-        width: 330px;
-        border: 4px solid orange;
-        margin-top: -170px;
-        margin-left: 680px;
-        color: white;
-        height: 50px;
-        background-color: white;
-        border-radius: 5px;
-    }
-    .third-nav{
-        border: none;
-        padding-left: 40px;
-        text-align: center;
-        border-radius: 5px;
-        padding-top: 10px;
-    }
-   
+    .center-area{
+        position: relative;
     
+    }
+    .heading{
+        margin-top: 65px;
+        margin-left: 65px;
+        color: black;
+        font-size: x-large;
+        font-weight: bold;
+    }
+   .Text{
+    margin-top: 5px;
+    margin-left: 65px;
+   }
+   .right-img{
+    position: absolute;
+    top: 25px;
+    left: 400px;
+   }
+   .right-img2{
+    position: absolute;
+    top: 0px;
+    left: 0;
+    border-radius: 6px;
+   }
+   .center-area2{
+    /* border: 1px solid black;     */
+    width: 180px;
+    margin-left: 24px;
+    margin-top: 20px;  
+    display: inline-block;
+
+   }
+   .center-img1{
+    border-radius: 5px;
+   }
+  .img-heading{
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  .img-text{
+    margin-top: -15px;
+    color: rgb(102, 101, 101);
+  }
+  
+ 
